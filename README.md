@@ -3,9 +3,7 @@
 
 ### 效果图：
 
-![点击跳过按钮效果](http://oixwuce1i.bkt.clouddn.com/%E7%82%B9%E5%87%BB%E8%B7%B3%E8%BF%87%E6%8C%89%E9%92%AE.gif)
-
-![未点击跳过按钮效果](http://oixwuce1i.bkt.clouddn.com/%E6%9C%AA%E7%82%B9%E5%87%BB%E8%B7%B3%E8%BF%87%E6%8C%89%E9%92%AE.gif)
+![点击跳过按钮效果](http://oixwuce1i.bkt.clouddn.com/%E7%82%B9%E5%87%BB%E8%B7%B3%E8%BF%87%E6%8C%89%E9%92%AE.gif)   ![未点击跳过按钮效果](http://oixwuce1i.bkt.clouddn.com/%E6%9C%AA%E7%82%B9%E5%87%BB%E8%B7%B3%E8%BF%87%E6%8C%89%E9%92%AE.gif)
 
 ### 方法简介：
 ```objc
