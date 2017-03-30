@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  SHStartPageViewDemo
 //
-//  Created by HarrySun on 2017/3/28.
+//  Created by CoderSun on 2017/3/28.
 //  Copyright © 2017年 Mobby. All rights reserved.
 //
 
@@ -20,17 +20,23 @@
     
     
     // 判断第一次进入
-    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]) {
+//    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]) {
     
         NSLog(@"第一次进入");
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
-
-        NSArray *imageArray = @[@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg"];
-        SHStartPageView *shStartPageView = [[SHStartPageView alloc] initWithFrame:self.window.frame ImageArray:imageArray enterButtonIsHidden:NO];
+        
+        // 根据图片数组创建启动图
+//        NSArray *imageArray = @[@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg"];
+//        SHStartPageView *shStartPageView = [[SHStartPageView alloc] initWithImageArray:imageArray enterButtonIsHidden:NO];
+    
+        
+        // 根据视频名称和类型创建启动图
+        SHStartPageView *shStartPageView = [[SHStartPageView alloc] initWithVideoName:@"1" videoType:@"mp4" enterButtonIsHidden:NO];
+        
         [self.window.rootViewController.view addSubview:shStartPageView];
         
-    }
-
+//    }
+    
     return YES;
 }
 
